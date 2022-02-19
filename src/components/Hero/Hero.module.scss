@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5rem 2rem;
+    color: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        padding: 7rem;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 10rem;
+    }
+
+    div {
+        width: 75%;
+
+        h1 {
+            font-size: 3rem;
+
+            @media screen and (min-width: 768px) {
+                font-size: 5rem;
+            }
+
+            @media screen and (min-width: 1280px) {
+                font-size: 7rem;
+            }
+        }
+
+        p {
+            margin-top: 1rem;
+            line-height: 150%;
+            color: #747474;
+
+            @media screen and (min-width: 768px) {
+                width: 75%;
+            }
+
+            @media screen and (min-width: 1280px) {
+                width: 50%;
+            }
+        }
+    }
+}

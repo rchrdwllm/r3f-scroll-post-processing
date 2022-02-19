@@ -1,0 +1,29 @@
+{
+    "name": "r3f-scroll-post-processing",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@react-three/drei": "^8.10.2",
+        "@react-three/fiber": "^7.0.26",
+        "@react-three/postprocessing": "^2.1.3",
+        "@types/three": "^0.137.0",
+        "next": "^12.1.0",
+        "react": "^18.0.0-rc.0",
+        "react-dom": "^18.0.0-rc.0",
+        "sass": "^1.49.8",
+        "three": "^0.137.5"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.18",
+        "@types/react": "17.0.39",
+        "eslint": "8.9.0",
+        "eslint-config-next": "12.1.0",
+        "typescript": "4.5.5"
+    }
+}
