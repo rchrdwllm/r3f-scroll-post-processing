@@ -23,6 +23,7 @@ const MyShaderMaterial = shaderMaterial(
         }
     `,
     `
+        // background cover style from https://gist.github.com/statico/df64c5d167362ecf7b34fca0b1459a44
         varying vec2 vUv;
         uniform vec2 scale;
         uniform vec2 imageBounds;
