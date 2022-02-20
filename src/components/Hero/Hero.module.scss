@@ -1,8 +1,5 @@
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+    height: 300vh;
     padding: 5rem 2rem;
     color: #ffffff;
 
@@ -14,10 +11,28 @@
         padding: 10rem;
     }
 
+    h1 {
+        position: absolute;
+        bottom: 65vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4rem;
+
+        @media screen and (min-width: 768px) {
+            font-size: 7rem;
+        }
+
+        @media screen and (min-width: 1280px) {
+            font-size: 10rem;
+        }
+    }
+
     div {
         width: 75%;
 
         h1 {
+            position: static;
+            transform: translate(0);
             font-size: 3rem;
 
             @media screen and (min-width: 768px) {

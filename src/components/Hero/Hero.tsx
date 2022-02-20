@@ -4,7 +4,10 @@ const Hero = () => {
     return (
         <div className={style.hero}>
             <div>
-                <h1>Hello, world!</h1>
+                <h1>
+                    Hello, <br />
+                    world!
+                </h1>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Vel esse cupiditate a, ullam quis dignissimos, obcaecati
@@ -12,6 +15,7 @@ const Hero = () => {
                     libero fuga?
                 </p>
             </div>
+            <h1>Flawless</h1>
         </div>
     );
 };
